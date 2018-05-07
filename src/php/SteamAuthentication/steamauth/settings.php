@@ -1,4 +1,9 @@
 <?php
+
+
+require 'steamauth/steamauth.php';
+
+
 $fileLoc = $_SERVER['DOCUMENT_ROOT'] . '/../passwords.txt';
 if (file_exists($fileLoc)) {
 	$fh = fopen($fileLoc, 'r');
