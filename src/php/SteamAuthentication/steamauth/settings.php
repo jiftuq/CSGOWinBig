@@ -10,8 +10,8 @@ if (file_exists($fileLoc)) {
 	die('no file found');
 }
 
-$steamauth['apikey'] = $apiKey; // Your Steam WebAPI-Key found at http://steamcommunity.com/dev/apikey
-$steamauth['domainname'] = "http://www.csgowinbig.com/"; // The main URL of your website displayed in the login page
+$steamauth['apikey'] = $apiKey; // 1BC9C444BF9EB8D7935FF57A9D40513C
+$steamauth['domainname'] = "jhjhjjh.herokuapp.com"; // The main URL of your website displayed in the login page
 $steamauth['buttonstyle'] = "large_no"; // Style of the login button [small|large_no|large]
 $steamauth['logoutpage'] = "../example.php"; // Page to redirect to after a successfull logout (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
 $steamauth['loginpage'] = "../example.php"; // Page to redirect to after a successfull login (from the directory the SteamAuth-folder is located in) - NO slash at the beginning!
